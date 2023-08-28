@@ -237,6 +237,50 @@
     </nameField>
     <pluralLabel>Students</pluralLabel>
     <recordTypeTrackHistory>false</recordTypeTrackHistory>
+    <recordTypes>
+        <fullName>Non_Technical</fullName>
+        <active>true</active>
+        <label>Non-Technical</label>
+        <picklistValues>
+            <picklist>Group__c</picklist>
+            <values>
+                <fullName>Arts</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>BBA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Designing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MBA</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Technical</fullName>
+        <active>true</active>
+        <label>Technical</label>
+        <picklistValues>
+            <picklist>Group__c</picklist>
+            <values>
+                <fullName>B%2ETech</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>M%2ETech</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MCA</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
     <searchLayouts />
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
