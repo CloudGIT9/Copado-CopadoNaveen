@@ -454,6 +454,16 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>Test_Text__c</fullName>
+        <externalId>false</externalId>
+        <label>Test Text</label>
+        <length>18</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>Title</fullName>
         <securityClassification>Confidential</securityClassification>
         <trackFeedHistory>false</trackFeedHistory>
