@@ -434,6 +434,16 @@
         <type>Picklist</type>
     </fields>
     <fields>
+        <fullName>Tenth_lead__c</fullName>
+        <externalId>false</externalId>
+        <label>Tenth lead</label>
+        <length>18</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>Title</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
