@@ -18,6 +18,7 @@
     <enableLEXExtensionRequiredFields>false</enableLEXExtensionRequiredFields>
     <enableLEXExtensionTrailhead>false</enableLEXExtensionTrailhead>
     <enableLEXOnIpadEnabled>false</enableLEXOnIpadEnabled>
+    <enableLWCDynamicComponents>false</enableLWCDynamicComponents>
     <enableLexEndUsersNoSwitching>false</enableLexEndUsersNoSwitching>
     <enableNavPersonalizationOptOut>false</enableNavPersonalizationOptOut>
     <enableNoBackgroundNavigations>false</enableNoBackgroundNavigations>

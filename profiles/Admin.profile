@@ -362,11 +362,6 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
-        <field>AuthorizationFormText.DetailAuthorizationFormText</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
         <editable>true</editable>
         <field>AuthorizationFormText.FullAuthorizationFormUrl</field>
         <readable>true</readable>
@@ -1662,6 +1657,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>Lead.Lead_Four__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Lead.MobilePhone</field>
         <readable>false</readable>
@@ -2558,6 +2558,21 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Student__c.Description__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Student__c.Group__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Student__c.Name__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Task.ActivityDate</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -3076,6 +3091,17 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Solution-Solution Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Student__c-Non-Technical Layout</layout>
+        <recordType>Student__c.Non_Technical</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Student__c-Student Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Student__c-Technical Layout</layout>
+        <recordType>Student__c.Technical</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Task-Task Layout</layout>
@@ -3659,6 +3685,15 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
+        <object>Student__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
         <object>WorkOrder</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
@@ -3672,8 +3707,22 @@
         <recordType>Idea.Record_type_for_community_09ai0000000TOLlAAO_entity_Idea</recordType>
         <visible>false</visible>
     </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Student__c.Non_Technical</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>true</default>
+        <recordType>Student__c.Technical</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
     <tabVisibilities>
         <tab>Getting_Started</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Student__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
@@ -3996,10 +4045,6 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>AddDirectMessageMembers</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>AllowObjectDetectionTraining</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
