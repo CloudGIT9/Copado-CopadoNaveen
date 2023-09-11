@@ -419,6 +419,16 @@
         <type>Picklist</type>
     </fields>
     <fields>
+        <fullName>Seven_lead__c</fullName>
+        <externalId>false</externalId>
+        <label>Seven lead</label>
+        <length>23</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>Status</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Picklist</type>
