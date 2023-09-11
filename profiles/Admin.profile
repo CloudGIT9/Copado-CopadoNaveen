@@ -1662,6 +1662,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>Lead.Lead_Four__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Lead.MobilePhone</field>
         <readable>false</readable>
@@ -3996,10 +4001,6 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>AddDirectMessageMembers</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>AllowObjectDetectionTraining</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
